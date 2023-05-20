@@ -29,7 +29,7 @@ const Schema = new mongoose.Schema({
     },
     subscription: {
         id: String,
-        Status: String,
+        status: String,
     },
     avatar: {
         public_id: {
